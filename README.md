@@ -106,3 +106,4 @@ Der Grund dafür besteht, das dieses Script legentlich von 0n1cOn3 auf Deutsch �
 ⁣                           |  ⁣
 :-------------------------:|:-------------------------:
 ![](https://github.com/crinny/b0mb3r/blob/master/assets/screenshot.png)  |  ![](https://github.com/crinny/b0mb3r/blob/master/assets/screenshot_mobile.png)
+(https://github.com/0n1cOn3/b0mb3r/blob/master/assets/screenshot-de.png)
