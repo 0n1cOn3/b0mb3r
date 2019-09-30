@@ -53,14 +53,14 @@ SMS-Bomber mit einem schönen Webinterface.
 2. Geben Sie die folgenden Befehle ein, um python 3 zu installieren:
    ``` brew install python3
    ```
-3. Es werden noch 2 Pip Komponenten benötigt, die werden wie folgt installiert:
-   ```sudo pip3 install flask
-      sudo pip3 install fake_useragent
-   ```
-4. Repo klonen
+3. Repo klonen
    ```
    git clone https://github.com/crinny/b0mb3r
    cd b0mb3r
+   ```
+4. Abhängingkeiten installieren:
+   ```
+python3 -m pip install -r requirements.txt
    ```
 4, Binary starten:
    ```python main.py
