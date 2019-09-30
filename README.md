@@ -1,11 +1,11 @@
 # b0mb3r 💣
-SMS бомбер с приятным веб-интерфейсом.
+SMS-Bomber mit einem schönen Webinterface.
 
-> Я не несу ответственности за ваши действия. Скачивая программное обеспечение из этого репозитория, вы соглашаетесь с [лицензией](https://github.com/crinny/b0mb3r/blob/master/LICENSE).
-# Установка
-## На Linux
-1. Откройте терминал и установите Python и git с помощью вашего пакетного менеджера:
-    Arch/manjaro/antergos:
+> Ich bin nicht verantwortlich für Ihre Handlungen. Durch das Herunterladen von Software aus diesem Repository stimmen Sie der [Lizenz] zu.(https://github.com/crinny/b0mb3r/blob/master/LICENSE).
+# Installation
+## Linux
+1. Öffne ein Terminal und installiere Python und git mit deinem Paketmanager:
+     Bogen / Manjaro / Antergos:
     ```bash
     pacman -S git python --needed
     ```
@@ -17,59 +17,59 @@ SMS бомбер с приятным веб-интерфейсом.
     ```bash
      yum install git python
     ```
-2. Склонируйте репозиторий при помощи git и перейдите в папку:
+2. Klone die Repository mit "git" und navigieren Sie zum extrahiertem Ordner:
     ```bash
     git clone https://github.com/crinny/b0mb3r
     cd b0mb3r
     ```
-3. Установите зависимости:
+3. Installieren Sie die Abhängigkeiten:
     ```bash
     python -m pip install -r requirements.txt
     ```
-4. Запустите ПО:
+4. Binary starten
     ```bash
     python main.py
     ```
-5. Если в вашем браузере не открылся веб-интерфейс, перейдите по ссылке в терминале.
+5. Wenn das Webinterface in Ihrem Browser nicht geöffnet wird, klicken Sie auf den Link im Terminal.
     
-## На Windows
-1. Установите Python версии не ниже 3.6, скачав установщик с [официального сайта](https://www.python.org/downloads/).
-2. Установите git для Windows, скачав его [отсюда](https://git-scm.com/download/win).
-3. Откройте командную строку и склонируйте репозиторий при помощи git и перейдите в папку:
+## Windows
+1. Installieren Sie Python die Version 3.6, indem Sie das Installationsprogramm von der [offiziellen Website] herunterladen (https://www.python.org/downloads/).
+2. Installieren Sie git für Windows, indem Sie es [von hier] herunterladen (https://git-scm.com/download/win).
+3. Öffnen Sie eine Eingabeaufforderung und klonen Sie das Repository mit git. Danach wechseln Sie in den Ordner:
     ```bash
     git clone https://github.com/crinny/b0mb3r
     cd b0mb3r
     ```
-4. Установите все необходимые библиотеки и запустите скрипт:
+4. Installieren Sie alle erforderlichen Abhängigkeiten und führen Sie das Skript aus:
     ```bash
     python -m pip install -r requirements.txt
     python main.py
     ```
-5. Если в вашем браузере не открылся веб-интерфейс, перейдите по ссылке в консоли.
+5. Wenn das Webinterface in Ihrem Browser nicht geöffnet wird, klicken Sie auf den Link in der Konsole.
 
-## На Android
-1. Установите [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=ru)
-2. Введите следующие команды поочерёдно для установки необходимых компонентов:
+## Android
+1. Installieren Sie [Termux] (https://play.google.com/store/apps/details?id=com.termux&hl=de).
+2. Geben Sie die folgenden Befehle ein, um die erforderlichen Komponenten zu installieren:
     ```bash
     pkg install python
     pkg install git
     ```
-3. Выполните действия, начиная с пункта 3 из инструкции по установке на Windows.
+3. Befolgen Sie die Schritte ab Schritt 3 der Installationsanweisungen für Windows.
 
-# Обновление
-## На Windows
-1. Введите следующую команду для удаления предыдущей версии:
+# Update 
+## Windows
+1. Geben Sie den folgenden Befehl ein, um die vorherige Version zu deinstallieren:
    ```bash
    rmdir /S /Q b0mb3r
    ```
-2. Выполните действия, начиная с пункта 3 из инструкции по установке на Windows.
-## На Linux/Android
-1. Выполните эту команду:
+2. Befolgen Sie die Schritte ab Schritt 3 der Installationsanweisungen für Windows.
+## Linux/Android
+1. Führen Sie diesen Befehl aus:
    ```bash
    cd b0mb3r
    git pull
    ```
-# Скриншоты
+# Screenshots
 ⁣                           |  ⁣
 :-------------------------:|:-------------------------:
 ![](https://github.com/crinny/b0mb3r/blob/master/assets/screenshot.png)  |  ![](https://github.com/crinny/b0mb3r/blob/master/assets/screenshot_mobile.png)
