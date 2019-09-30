@@ -47,6 +47,25 @@ SMS-Bomber mit einem schönen Webinterface.
     ```
 5. Wenn das Webinterface in Ihrem Browser nicht geöffnet wird, klicken Sie auf den Link in der Konsole.
 
+## macOS
+
+1. Installieren sie [brew] von [Brew.sh]
+2. Geben Sie die folgenden Befehle ein, um python 3 zu installieren:
+   ``` brew install python3
+   ```
+3. Es werden noch 2 Pip Komponenten benötigt, die werden wie folgt installiert:
+   ```sudo pip3 install flask
+      sudo pip3 install fake_useragent
+   ```
+4. Repo klonen
+   ```
+   git clone https://github.com/crinny/b0mb3r
+   cd b0mb3r
+   ```
+4, Binary starten:
+   ```python main.py
+   ```
+
 ## Android
 1. Installieren Sie [Termux] (https://play.google.com/store/apps/details?id=com.termux&hl=de).
 2. Geben Sie die folgenden Befehle ein, um die erforderlichen Komponenten zu installieren:
@@ -69,6 +88,17 @@ SMS-Bomber mit einem schönen Webinterface.
    cd b0mb3r
    git pull
    ```
+
+## macOS
+
+1. Geben Sie den folgenden Befehl ein, um die vorherige Version zu deinstallieren:
+   ``` rm -rf b0mb3r
+   ```
+
+## Warnung: Falls sie vorhaben, das Programm upzudaten, kann es zu Lokalisationsproblemen kommen!
+
+Der Grund dafür besteht, das dieses Script legentlich von 0n1cOn3 auf Deutsch übersetzt wurde.
+
 # Screenshots
 ⁣                           |  ⁣
 :-------------------------:|:-------------------------:
