@@ -91,8 +91,10 @@ SMS-Bomber mit einem schönen Webinterface.
 
 ## macOS
 
-1. Geben Sie den folgenden Befehl ein, um die vorherige Version zu deinstallieren:
-   ``` rm -rf b0mb3r
+1. Geben Sie den folgenden Befehl ein, um die Version zu aktualisieren:
+   ``` 
+   cd b0mb3r
+   git pull
    ```
 
 ## Warnung: Falls sie vorhaben, das Programm upzudaten, kann es zu Lokalisationsproblemen kommen!
