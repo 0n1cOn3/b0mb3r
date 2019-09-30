@@ -61,10 +61,11 @@ SMS-Bomber mit einem schönen Webinterface.
    ```
 4. Abhängingkeiten installieren:
    ```
-python3 -m pip install -r requirements.txt
+   python3 -m pip install -r requirements.txt
    ```
-4, Binary starten:
-   ```python main.py
+4. Binary starten:
+   ```
+   python main.py
    ```
 
 ## Android
