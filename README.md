@@ -49,9 +49,10 @@ SMS-Bomber mit einem schönen Webinterface.
 
 ## macOS
 
-1. Installieren sie [brew] von [Brew.sh]
+1. Installieren sie [brew] von [https://brew.sh]
 2. Geben Sie die folgenden Befehle ein, um python 3 zu installieren:
-   ``` brew install python3
+   ``` 
+   brew install python3
    ```
 3. Repo klonen
    ```
