@@ -93,11 +93,10 @@ SMS-Bomber mit einem schönen Webinterface.
 
 1. Geben Sie den folgenden Befehl ein, um die Version zu aktualisieren:
    ``` 
-   cd b0mb3r
-   git pull
+   rm -rf b0mb3r && git clone https://github.com/crinny/b0mb3r && cd b0mb3r
    ```
 
-## Warnung: Falls sie vorhaben, das Programm upzudaten, kann es zu Lokalisationsproblemen kommen!
+## Warnung: Falls sie vorhaben, das Programm zu aktualisieren, kann es zu Lokalisationsproblemen kommen!
 
 Der Grund dafür besteht, das dieses Script legentlich von 0n1cOn3 auf Deutsch übersetzt wurde.
 
