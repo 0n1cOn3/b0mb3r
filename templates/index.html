@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ru">
+<html lang="de-de">
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
@@ -16,25 +16,25 @@
 
 <div id="main">
     <h1 class="no-select">b0mb3r 💣</h1>
-    <p class="lead" id="sms">Доступно SMS-сервисов: <span
+    <p class="lead" id="sms">Verfügbare SMS-Dienste: <span
             class="badge badge-pill badge-primary no-select">{{sms}}</span></p>
     <form action="/sms" id="phone-form" method="post">
         <div class="form-row">
             <div class="col">
                 <label for="phone"></label>
                 <input aria-describedby="phonesHelp" class="form-control" id="phone" name="phone"
-                       pattern="\d*" placeholder="Номер" required type="number">
+                       pattern="\d*" placeholder="Nummer" required type="number">
             </div>
 
             <div class="col">
                 <label for="count"></label>
-                <input class="form-control" id="count" max="1000" min="1" name="count" placeholder="Повторы"
+                <input class="form-control" id="count" max="1000" min="1" name="count" placeholder="Wiederholung"
                        required type="number" value="1">
             </div>
 
             <div class="col">
                 <label for="smsText"></label>
-                <input class="form-control" id="smsText" max="1000" min="1" name="smsText" placeholder="Текст SMS"
+                <input class="form-control" id="smsText" max="1000" min="1" name="smsText" placeholder="SMS Text"
                         type="text">
             </div>
         </div>
@@ -42,29 +42,29 @@
         <div class="form-group form-check">
             <input class="form-check-input" id="call" name="call" type="checkbox" value="true">
             <input name="call" type="hidden" value="false"/>
-            <label class="form-check-label" for="call">Звонки (beta)</label>
+            <label class="form-check-label" for="call">Anrufe (beta)</label>
         </div>
 
         <small class="form-text text-muted" id="phonesHelp"></small>
-        <button class="btn btn-primary btn-lg" type="submit">Начать атаку</button>
+        <button class="btn btn-primary btn-lg" type="submit">Angriff starten</button>
     </form>
 </div>
 
 <div class="mt-auto py-3 footer" id="footer">
-    <span class="text-muted">Made with ❤️ by crinny.</span>
+    <span class="text-muted">Made with ❤️ by crinny. Translated by 0n1cOn3</span>
 </div>
 
 <script src="/static/jquery-3.4.1.min.js"></script>
 <script src="/static/intlTelInput.min.js"></script>
 
 <script type="text/javascript">
-    let tips = ['b0mb3r работает с российскими номерами лучше всего', 'вы можете предложить новый SMS-сервис <a href="https://github.com/crinny/b0mb3r/issues/new?labels=enhancement&title=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20SMS-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0">здесь</a>'];
+    let tips = ['b0mb3r funktioniert am besten mit russischen Nummern. Sie können einen neuen SMS-Dienst anbieten? Dann folgen sie diesen Link: <a href="https://github.com/crinny/b0mb3r/issues/new?labels=enhancement&title=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20SMS-%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%B0">здесь</a>'];
     let input = document.querySelector('#phone');
     let tip = document.querySelector('#phonesHelp');
     let intltelinput = undefined;
 
     $(document).ready(function () {
-        tip.innerHTML = 'Совет: ' + tips[Math.random() * tips.length >> 0];
+        tip.innerHTML = 'Tipp: ' + tips[Math.random() * tips.length >> 0];
         intltelinput = intlTelInput(input, {
             onlyCountries: ['ru', 'ua', 'kz', 'by'],
             initialCountry: 'ru',
